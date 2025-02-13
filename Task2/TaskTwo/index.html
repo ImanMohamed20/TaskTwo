@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+</head>
+<body class="bg-black text-white font-sans">
+    <header class="fixed top-0 w-full flex justify-between items-center p-5 bg-transparent text-red-500 transition-all duration-300">
+        <a href="#home" class="text-red-500 text-xl font-bold flex items-center ml-20">
+            <i class="fas fa-film"></i> Movies
+        </a>
+        <ul class="hidden md:flex space-x-20 text-lg font-bold">
+            <li><a href="#home" class="text-red-500 hover:text-black">Home</a></li>
+            <li><a href="#movies" class="text-red-500 hover:text-black">Movies</a></li>
+            <li><a href="#coming-soon" class="text-red-500 hover:text-black">Coming Soon</a></li>
+            <li><a href="#newsletter" class="text-red-500 hover:text-black">Newsletter</a></li>
+        </ul>
+        <a href="#" class="border border-red-500 px-9 py-3 rounded bg-red-500 text-white mr-20">Sign In</a>
+    </header>
+    <section id="home" class="h-screen bg-cover bg-center flex items-center justify-start px-10" style="background-image: url('img/home3.jpg');">
+      <div class="text-left ml-14 mt-20">
+          <span class="text-lg font-semibold text-black block mb-6">MARVEL UNIVERSE</span>
+          <h2 class="text-6xl font-extrabold text-white mb-10">
+            <span class="text-7xl block mb-4">Spider-Man</span>
+            Far From Home
+        </h2>
+       
+        <a href="#" class="mt-6 inline-block bg-red-500 px-6 py-3 rounded-md text-white hover:bg-red-600">
+          Book Now
+      </a>
+      
+      </div>
+  </section>
+  
+  <section id="movies" class="py-12 ml-40 mr-40 text-left bg-black">
+      <h2 class="text-2xl font-bold border-b-2 border-red-500 w-full pb-2 inline-block">
+          Opening this Week
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 px-4 ">
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m1.jpg" class="w-full h-48 object-cover rounded" alt="Venom">
+              <h3 class="text-lg mt-2 text-red-500">Venom</h3>
+              <span class="text-sm text-gray-400">120min | Action</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m2.jpg" class="w-full h-48 object-cover rounded" alt="Dunkirk">
+              <h3 class="text-lg mt-2 text-red-500">Dunkirk</h3>
+              <span class="text-sm text-gray-400">105min | Adventure</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m3.jpg" class="w-full h-48 object-cover rounded" alt="Batman & Superman">
+              <h3 class="text-lg mt-2 text-red-500">Batman & Superman</h3>
+              <span class="text-sm text-gray-400">100min | Thriller</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m4.jpg" class="w-full h-48 object-cover rounded" alt="John Wick">
+              <h3 class="text-lg mt-2 text-red-500">John Wick</h3>
+              <span class="text-sm text-gray-400">120min | Adventure</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m5.jpg" class="w-full h-48 object-cover rounded" alt="Aquaman">
+              <h3 class="text-lg mt-2 text-red-500">Aquaman</h3>
+              <span class="text-sm text-gray-400">130min | Action</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m6.jpg" class="w-full h-48 object-cover rounded" alt="Black Panther">
+              <h3 class="text-lg mt-2 text-red-500">Black Panther</h3>
+              <span class="text-sm text-gray-400">90min | Thriller</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m7.jpg" class="w-full h-48 object-cover rounded" alt="Thor">
+              <h3 class="text-lg mt-2 text-red-500">Thor</h3>
+              <span class="text-sm text-gray-400">130min | Action</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m8.png" class="w-full h-48 object-cover rounded" alt="Bumblebee">
+              <h3 class="text-lg mt-2 text-red-500">Bumblebee</h3>
+              <span class="text-sm text-gray-400">100min | Thriller</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m9.jpg" class="w-full h-48 object-cover rounded" alt="Mortal Engines">
+              <h3 class="text-lg mt-2 text-red-500">Mortal Engines</h3>
+              <span class="text-sm text-gray-400">100min | Action</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/m10.jpg" class="w-full h-48 object-cover rounded" alt="UnderWorld Blood Wars">
+              <h3 class="text-lg mt-2 text-red-500">UnderWorld Blood Wars</h3>
+              <span class="text-sm text-gray-400">100min | Action</span>
+          </div>
+      </div>
+  </section>
+  
+    <section id="coming-soon" class="py-12 ml-40 mr-40 text-left bg-black">
+      <h2 class="text-2xl font-bold border-b-2 border-red-500 w-full pb-2 inline-block">Coming Soon</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 px-4">
+        <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/coming1.jpg" class="w-full h-48 object-cover rounded" alt="Johnny English">
+              <h3 class="text-lg mt-2 text-red-500">Johnny English</h3>
+              <span class="text-sm text-gray-400">80min | Comedy</span>
+          </div>
+          <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+              <img src="img/coming2.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+              <h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+              <span class="text-sm text-gray-400">120min | Action</span>
+          </div>
+         <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+            <img src="img/coming3.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+            <h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+            <span class="text-sm text-gray-400">120min | Action</span>
+        </div>
+        <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+          <img src="img/coming4.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+          <h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+          <span class="text-sm text-gray-400">120min | Action</span>
+      </div>
+      <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+        <img src="img/coming5.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+        <h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+        <span class="text-sm text-gray-400">120min | Action</span>
+    </div>
+    <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+      <img src="img/coming6.jpeg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+      <h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+      <span class="text-sm text-gray-400">120min | Action</span>
+  </div>
+  <div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+    <img src="img/coming7.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+    <h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+    <span class="text-sm text-gray-400">120min | Action</span>
+</div>
+<div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+  <img src="img/coming8.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+  <h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+  <span class="text-sm text-gray-400">120min | Action</span>
+</div>
+<div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+<img src="img/coming9.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+<h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+<span class="text-sm text-gray-400">120min | Action</span>
+</div>
+<div class="bg-black-800 p-4 rounded transform transition duration-300 hover:-translate-y-2 cursor-pointer">
+<img src="img/coming10.jpg" class="w-full h-48 object-cover rounded" alt="Warcraft">
+<h3 class="text-lg mt-2 text-red-500">Warcraft</h3>
+<span class="text-sm text-gray-400">120min | Action</span>
+</div>
+      </div>
+  </section>
+    
+    <section id="newsletter" class="py-12 text-center">
+      <h2 class="text-4xl font-bold text-white">Subscribe To Get <br> Newsletter</h2>
+      <form class="mt-6 relative w-full max-w-md mx-auto">
+        <input type="email" placeholder="Enter Email..." 
+        class="p-6 pr-20 w-full rounded-lg bg-white text-black border-none focus:outline-none"> 
+              <button type="submit" 
+              class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-red-500 px-4 py-2 rounded text-white 
+                     hover:bg-red-800 text-2xl font-bold  ">
+              SUBSCRIBE
+          </button>
+          
+      </form>
+  </section>
+  
+ 
+<footer class="py-6 bg-black-800 text-center text-white">
+  <div class="flex items-center justify-between px-8">
+    
+      <a href="index.html" class="text-white-500 text-2xl font-bold flex items-center">
+          <i class="fas fa-film mr-2 text-red-500"></i> Movies
+      </a>
+
+      <div class="flex space-x-4">
+          <a href="#" class="bg-white text-red-500 p-4 rounded-full text-2xl hover:bg-gray-200">
+              <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="bg-white text-red-500 p-4 rounded-full text-2xl hover:bg-gray-200">
+              <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="bg-white text-red-500 p-4 rounded-full text-2xl hover:bg-gray-200">
+              <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="bg-white text-red-500 p-4 rounded-full text-2xl hover:bg-gray-200">
+              <i class="fab fa-tiktok"></i>
+          </a>
+      </div>
+  </div>
+
+  <p class="mt-4 text-gray-400 text-lg">
+      © <span class="text-red-500 font-semibold">Web Masters</span> All Right Reserved.
+  </p>
+</footer>
+
+    
+    <script src="js/main.js">
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    header.style.backgroundColor = "white";
+    header.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)";
+  } else {
+    header.style.backgroundColor = "transparent";
+    header.style.boxShadow = "none";
+  }
+});
+
+
+
+    </script>
+</body>
+</html>
